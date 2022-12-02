@@ -1,0 +1,176 @@
+{
+    "Movie": {
+        "Jumanji": {
+            "header":"JUMANJI: WELCOME TO THE JUNGLE",
+            "backimg": "Images/play-background.jpg",
+            "videos": "Images/Jumanji.mp4",
+            "castimages": [
+                "Images/cast1.jpg",
+                "Images/cast2.jpg",
+                "Images/cast3.jpg",
+                "Images/cast4.jpg",
+                "Images/cast5.jpg",
+                "Images/cast6.jpg"
+            ],
+            "title": "Jumanji: Welcome to the Jungle",
+            "title2":"About Cast",
+            "desc": "A magical board game unleashes a world of adventure on siblings Peter (Bradley Pierce) and Judy Shepherd (Kirsten Dunst). While exploring an old mansion, the youngsters find a curious, jungle-themed game called Jumanji in the attic. When they start playing, they free Alan Parrish (Robin Williams), who's been stuck in the game's inner world for decades. If they win Jumanji, the kids can free Alan for good -- but that means braving giant bugs, ill-mannered monkeys and even stampeding rhinos!",
+
+            "castname": [
+                "Dwayne Johnson",
+                "Karen Gillan",
+                "Kevin Hart",
+                "Jack Black",
+                "Nick Jonas",
+                "Madisson Iseman"
+            ]
+        },
+        "StarWars": {
+            "header":"STAR WARS",
+            "backimg": "Images/2.jpeg",
+            "videos": "Images/StarWars.mp4",
+            "castimages": [
+                "Images/natalie.jpg",
+                "Images/ewan.jpg",
+                "Images/liam.jpg",
+                "Images/adam.jpg",
+                "Images/daisy.jpg",
+                "Images/felicity.jpg"
+            ],
+            "title": "Star Wars",
+            "title2":"About Cast",
+            "desc": "The Imperial Forces -- under orders from cruel Darth Vader (David Prowse) -- hold Princess Leia (Carrie Fisher) hostage, in their efforts to quell the rebellion against the Galactic Empire. Luke Skywalker (Mark Hamill) and Han Solo (Harrison Ford), captain of the Millennium Falcon, work together with the companionable droid duo R2-D2 (Kenny Baker) and C-3PO (Anthony Daniels) to rescue the beautiful princess, help the Rebel Alliance, and restore freedom and justice to the Galaxy.",
+            "castname": [
+                "Natalie Portman",
+                "Ewan McGregor",
+                "Liam Neeson",
+                "Adam Driver",
+                "Daisy Ridley",
+                "Felicity Jones"
+            ]
+        },
+        "Storm": {
+            "header":"INFINITY STORM",
+            "backimg": "Images/3.jpg",
+            "videos": "Images/Storm.mp4",
+            "castimages": [
+                "Images/naomi.jpg",
+                "Images/denis.jpg",
+                "Images/billy.jpg",
+                "Images/parker.jpg",
+                "Images/elliot.jpg",
+                "Images/joshua.jpg"
+            ],
+            "title": "Infinite Storm",
+            "title2":"About Cast",
+            "desc": "As an experienced climber ascends Mount Washington, she turns back before she reaches the summit as a huge blizzard approaches. However, on her way down, she encounters a stranded man and takes it upon herself to get them both down the mountain before nightfall arrives and they succumb to the elements.",
+            "castname": [
+                "Naomi Watts",
+                "Denis O'Hare",
+                "Billy Howle",
+                "Parker Sawyers",
+                "Eliot Sumner",
+                "Joshua Rollins"
+            ]
+        },
+        "1917": {
+            "header":"1917",
+            "backimg":"Images/4.jpg",
+            "videos":"Images/1917.mp4",
+            "castimages": [
+                "Images/dean.jpg",
+                "Images/george.jpg",
+                "Images/daniel.jpg",
+                "Images/benedict.jpg",
+                "Images/spike.jpg",
+                "Images/andy.jpg"
+            ],
+            "title": "1917",
+            "title2":"About Cast",
+            "desc": "During World War I, two British soldiers -- Lance Cpl. Schofield and Lance Cpl. Blake -- receive seemingly impossible orders. In a race against time, they must cross over into enemy territory to deliver a message that could potentially save 1,600 of their fellow comrades -- including Blake's own brother.",
+
+            "castname": [
+                "Dean-Charles Chapman",
+                "George MacKay",
+                "Daniel Mays",
+                "Benidict Cumberbatch",
+                "Spike Leighton",
+                "Andy Apollo"
+            ]
+        },
+        "Avengers": {
+            "header":"AVENGERS",
+            "backimg":"Images/5.jpg",
+            "videos":"Images/Avengers.mp4",
+            "castimages": [
+                "Images/robert.jpg",
+                "Images/chris.jpg",
+                "Images/mark.jpg",
+                "Images/scarlett.jpg",
+                "Images/hems.jpg",
+                "Images/hiddle.jpg"
+            ],
+            "title": "Avengers",
+            "title2":"About Cast",
+            "desc": "When Thor's evil brother, Loki , gains access to the unlimited power of the energy cube called the Tesseract, Nick Fury , director of S.H.I.E.L.D., initiates a superhero recruitment effort to defeat the unprecedented threat to Earth. Joining Fury's 'dream team' are Iron Man, Captain America, the Hulk , Thor , the Black Widow and Hawkeye.",
+            "castname": [
+                "Robert Downey Jr.",
+                "Chris Evans",
+                "Mark Ruffalo",
+                "Scarlett Johansson",
+                "Chris Hemsworth",
+                "Tom Hiddleston"
+            ]
+        },
+        "Rampage": {
+            "header":"RAMPAGE",
+            "backimg":"Images/6.jpg",
+            "videos":"Images/Rampage.mp4",
+            "castimages": [
+                "Images/dwayne.jpg",
+                "Images/naomie.jpg",
+                "Images/malin.jpg",
+                "Images/jeffrey.jpg",
+                "Images/marley.jpg",
+                "Images/lacy.jpg"
+            ],
+            "title": "Rampage",
+            "title2":"About Cast",
+            "desc": "Primatologist Davis Okoye shares an unshakable bond with George, an extraordinarily intelligent, silverback gorilla that's been in his care since birth. When a rogue genetic experiment goes wrong, it causes George, a wolf and a reptile to grow to a monstrous size. As the mutated beasts embark on a path of destruction, Okoye teams up with a discredited genetic engineer and the military to secure an antidote and prevent a global catastrophe.",
+
+            "castname": [
+                "Dwayne Johnson",
+                "Naomie Harris",
+                "Malin Akerman",
+                "Jeffrey Dean Morgan",
+                "Marley Shelton",
+                "Jake Lacy"
+            ]
+        },
+        "Oblivion": {
+            "header":"OBLIVION",
+            "backimg":"Images/8.jpg",
+            "videos":"Images/Oblivion.mp4",
+            "castimages": [
+                "Images/tom.jpg",
+                "Images/morgan.jpg",
+                "Images/olgya.jpg",
+                "Images/andrea.jpg",
+                "Images/nikolaj.jpg",
+                "Images/melissa.jpg"
+            ],
+            "title": "Oblivionlooooooppppppp",
+            "title2":"About Cast",
+            "desc": "In the year 2077, Jack Harper works as a security repairman on an Earth left empty and devastated after a war with aliens. Jack has two weeks left before his mission ends and he joins his fellow survivors on a faraway colony. However, Jack's concept of reality comes crashing down after he rescues a beautiful stranger from a downed spacecraft. The woman's arrival triggers a chain of events that culminates in Jack's nearly single-handed battle to save mankind.",
+
+            "castname": [
+                "Tom Cruise",
+                "Morgan Freeman",
+                "Olga Kurylenko",
+                "Andrea Riseborough",
+                "Nikolaj Coster-Waldau",
+                "Melissa Leo"
+            ]
+        }
+    }
+}

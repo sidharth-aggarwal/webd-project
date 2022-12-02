@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  scroll-padding-top: 2rem;
+}
+:root {
+  --main-color: #ffb43a;
+  --hover-color: hsl(37, 94%, 57%);
+  --body-color: #1e1e2a;
+  --container-color: #2d2e37;
+  --text-color: #fcfeff;
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+.bx {
+  cursor: pointer;
+}
+body {
+  background: var(--body-color);
+  color: var(--text-color);
+}
+.container {
+  max-width: 1068px;
+  margin: auto;
+  width: 100%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--body-color);
+  z-index: 100;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+.logo {
+  font-size: 1.4rem;
+  color: var(--text-color);
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 auto 0 0;
+}
+.logo span {
+  color: var(--main-color);
+}
+.search-box {
+  max-width: 240px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  column-gap: 0.7rem;
+  padding: 8px 15px;
+  background: var(--container-color);
+  border-radius: 4rem;
+  margin-right: 1rem;
+}
+.search-box .bx {
+  font-size: 1.1rem;
+}
+.search-box .bx:hover {
+  color: var(--main-color);
+}
+#search-input {
+  width: 100%;
+  border: none;
+  outline: none;
+  color: var(--text-color);
+  background: transparent;
+  font-size: 0.94rem;
+}
+.user {
+  display: flex;
+}
+.user-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+.navbar {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 18px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.1rem;
+}
+.nav-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #b7b7b7;
+}
+.nav-link:hover,
+nav.active {
+  color: var(--text-color);
+  transition: 0.3s all linear;
+  transform: scale(1.1);
+}
+.nav-link .bx {
+  font-size: 1.6rem;
+}
+
+.col{
+  display: flex;
+  flex-direction: row;
+  width: 20vw;
+}
+.col1{
+
+  /* margin-left: 500px; */
+  margin-top: 100px;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.movie-container {
+  margin: 20px 0;
+}
+
+.movie-container select {
+  background-color: #fff;
+  border: 0;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-left: 10px;
+  padding: 5px 15px 5px 15px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.container1 {
+  perspective: 2000px;
+  margin-bottom: 30px;
+  
+}
+
+.seat {
+  background-color: #444451;
+  height: 12px;
+  width: 15px;
+  margin: 7px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.seat.selected {
+  background-color: #6feaf6;
+}
+
+.seat.occupied {
+  background-color: #fff;
+}
+
+.seat:nth-of-type(2) {
+  margin-left: 10px;
+  margin-right: 35px;
+}
+
+.seat:nth-last-of-type(2) {
+  margin-left: 10px;
+  margin-left: 35px;
+}
+
+.seat:not(.occupied):hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.showcase .seat:not(.occupied):hover {
+  cursor: default;
+  transform: scale(1);
+}
+
+.showcase {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #777;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.showcase li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.showcase li small {
+  margin-left: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.screen {
+  background-color: #fff;
+  height: 70px;
+  width: 300px;
+  margin: 15px 0;
+  transform: rotateX(-45deg);
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.75);
+}
+
+p.text {
+  margin: 5px 0;
+  font-size: 13px;
+}
+
+p.text span {
+  color: #6feaf6;
+}
+.btn1{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: var(--main-color);
+  color: white;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  bottom: 20px;
+  left: 50px;
+  width: 120px;
+  margin-bottom: 50px;
+}
+.movie-list-item-button1{
+  background: transparent;
+  outline: none;
+  border: none;
+}
